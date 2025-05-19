@@ -1,3 +1,4 @@
+import Workart from './components/Workart';
 function App() {
   return (
     <>
@@ -17,10 +18,8 @@ function App() {
       </header>
       <div className="Conteneur">
         <span>Featured Work</span>
-        <div className='composatWorkArt'>
-          <span>Titre du WorkArt</span>
-          <img src="" alt="work1" />
-        </div>
+        <Workart></Workart>
+        
       </div>
     </>
   );

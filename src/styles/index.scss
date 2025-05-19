@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:$color-secondary;
 }
 body{
   height:100vh;
@@ -14,6 +15,7 @@ body{
   margin: 0;
   padding: 0;
   background: $color-background;
+  font-family: $font-base;
 }
 header{
   img{
@@ -64,9 +66,16 @@ header{
  
 }
 .Conteneur{
+  position: relative;
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 32px;
+  //background: $color-tertiary;
+  span{
+    font: {
+      family:$font-modista;
+      size:64px;
+    }
+  }
 }

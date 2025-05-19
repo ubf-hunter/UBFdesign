@@ -1,0 +1,21 @@
+@import '../styles/variables';
+.Workart{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    width: 100%;
+    height: 460px; 
+    border-width:8px;   
+    border-color:$color-primary;
+    border-style:solid;
+    padding: 8px;
+    .Titre{
+        display: flex;
+        font: {
+            size: 48px;
+            family:$font-base-bold;
+            weight:600;
+
+        }
+    }
+}
