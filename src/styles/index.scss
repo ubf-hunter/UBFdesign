@@ -1,5 +1,5 @@
-@import './_variables';
-@import './_fonts';
+@import './fonts';
+@import './variables';
 
 
 
@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   color:$color-secondary;
+  
 }
 body{
   height:100vh;
@@ -16,6 +17,7 @@ body{
   padding: 0;
   background: $color-background;
   font-family: $font-base;
+  overflow-x: hidden;
 }
 header{
   img{
@@ -56,26 +58,51 @@ header{
     }
   }
   background: $color-background;
+  top: 0;
   margin: 0;
   padding: 0;
   width: 100%;
-  height:120px;
+  height:104px;
   display: flex;
   align-items: center;
-  justify-content:space-between
- 
+  justify-content:space-between;
+  //position:fixed;
+  //z-index:88;
 }
 .Conteneur{
   position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 32px;
+  padding: 64px;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
   //background: $color-tertiary;
   span{
     font: {
       family:$font-modista;
-      size:64px;
+      size:72px;
     }
+  }
+  .boxbox{
+    position: grid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .boxbox {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }

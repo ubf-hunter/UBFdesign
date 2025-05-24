@@ -1,5 +1,9 @@
-import Workart from './components/Workart';
+import Library from './components/Library';
 function App() {
+  const items = [
+    { url: './public/MIngaMockup.png', titlew: 'Minga App' },
+    { url: './public/MIngaMockup.png', titlew: 'Titre du workart' },
+  ];
   return (
     <>
       <header>
@@ -18,8 +22,9 @@ function App() {
       </header>
       <div className="Conteneur">
         <span>Featured Work</span>
-        <Workart></Workart>
-        
+        <div className="boxbox">
+          <Library items={items}></Library>
+        </div>
       </div>
     </>
   );
