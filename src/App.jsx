@@ -3,14 +3,14 @@ import Library from './components/Library';
 function App() {
   const items = [
     {
-      url: 'public/moiElegant.png',
+      url: 'moiElegant.png',
       titlew: 'Minga App',
       url2: 'Accueil.png',
       url3: 'Settings.png',
       description: ' Lorem ipsum dolor sit amet,  architecto cum ducimus.',
     },
     {
-      url: 'public/moiElegant.png',
+      url: 'moiElegant.png',
       titlew: 'Minga App',
       url2: 'MIngaMockup.png',
       url3: 'Accueil.png',
