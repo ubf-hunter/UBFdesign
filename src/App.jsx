@@ -1,8 +1,21 @@
 import Library from './components/Library';
+
 function App() {
   const items = [
-    { url: './public/MIngaMockup.png', titlew: 'Minga App' },
-    { url: './public/MIngaMockup.png', titlew: 'Titre du workart' },
+    {
+      url: 'public/moiElegant.png',
+      titlew: 'Minga App',
+      url2: 'public/Accueil.png',
+      url3: 'public/Settings.png',
+      description: ' Lorem ipsum dolor sit amet,  architecto cum ducimus.',
+    },
+    {
+      url: 'public/moiElegant.png',
+      titlew: 'Minga App',
+      url2: 'public/MIngaMockup.png',
+      url3: 'public/Accueil.png',
+      description: ' Lorem ipsum dolor sit amet,  architecto cum ducimus.',
+    },
   ];
   return (
     <>

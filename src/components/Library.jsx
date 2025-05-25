@@ -1,20 +1,18 @@
 import Workart from './Workart';
+import './Workart.scss';
 
 const Library = ({ items }) => {
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr', // Toujours 2 colonnes
-        gap: '20rem',
-        width: '100%',
-        maxWidth: '1800px',
-        margin: '0 auto',
-        padding: '1rem',
-      }}
-    >
+    <div className="Library">
       {items.map((item, index) => (
-        <Workart key={index} imageUrl={item.url} titlew={item.titlew} />
+        <Workart
+          key={index}
+          workartUrl={item.url2}
+          workartUrl2={item.url3}
+          imageUrl={item.url}
+          titlew={item.titlew}
+          description={item.description}
+        />
       ))}
     </div>
   );
