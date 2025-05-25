@@ -5,8 +5,8 @@ function App() {
     {
       url: 'public/moiElegant.png',
       titlew: 'Minga App',
-      url2: 'public/Accueil.png',
-      url3: 'public/Settings.png',
+      url2: './public/Accueil.png',
+      url3: 'Settings.png',
       description: ' Lorem ipsum dolor sit amet,  architecto cum ducimus.',
     },
     {
