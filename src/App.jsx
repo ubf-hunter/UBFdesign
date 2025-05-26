@@ -4,16 +4,16 @@ function App() {
   const items = [
     {
       url: 'moiElegant.png',
-      titlew: 'Minga App',
+      titlew: 'ECHO',
       url2: 'Accueil.png',
       url3: 'Settings.png',
-      description: ' Lorem ipsum dolor sit amet,  architecto cum ducimus.',
+      description: `App de detection d'effraction`,
     },
     {
       url: 'moiElegant.png',
       titlew: 'Minga App',
-      url2: 'MIngaMockup.png',
-      url3: 'Accueil.png',
+      url2: 'MingaR.png',
+      url3: 'MingaH.png',
       description: ' Lorem ipsum dolor sit amet,  architecto cum ducimus.',
     },
   ];

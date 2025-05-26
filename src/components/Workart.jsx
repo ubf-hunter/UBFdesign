@@ -19,8 +19,8 @@ const Workart = ({
       }}
     >
       <div className="ContentTy">
-        <span className="description">{description}</span>
         <span className="Titre">{titlew}</span>
+        <span className="description">{description}</span>
         <Button title="Show more" />
       </div>
       <div className="WorkartUrl">
