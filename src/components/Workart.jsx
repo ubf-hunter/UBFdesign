@@ -21,7 +21,7 @@ const Workart = ({
       <div className="ContentTy">
         <span className="Titre">{titlew}</span>
         <span className="description">{description}</span>
-        <Button title="Show more" />
+        <Button title="Voir Plus" />
       </div>
       <div className="WorkartUrl">
         <img src={workartUrl} alt="" />

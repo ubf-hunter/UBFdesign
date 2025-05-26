@@ -15,7 +15,10 @@ body{
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: $color-background;
+  background: linear-gradient(#fffcf000,#fffcf023), url(t7.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
   font-family: $font-base;
   overflow-x: hidden;
 }

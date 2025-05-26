@@ -76,18 +76,22 @@
 }
 .Button{
     position: relative;
-    width: 60%;
+    width: 190px;
     display: flex;
     align-items: center;
-    justify-self: flex-end;
+    align-content: center;
     justify-content: center;
     background: $color-background;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     border-radius: 4em;
+    cursor: pointer;
     span{
+        text-align: center;
         font: {
-            size: 2em;
+            size: 1.5em;
             weight:600;
             family:$font-base-bold;
         }
@@ -96,5 +100,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        align-content: center;
     }
 }
